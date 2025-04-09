@@ -16,7 +16,11 @@ Create an object called `person` with these properties:
 | job   | "Developer" |
 
 ```javascript
-// your code here
+const person ={
+    name: "John",
+    age: 25,
+    job:"Developer"
+};
 ```
 
 ---
@@ -28,7 +32,8 @@ Use `console.log` to display:
 - The person's job
 
 ```javascript
-// your code here
+console.log(person.name);
+console.log(person.job);
 ```
 
 ---
