@@ -83,7 +83,17 @@ Create an object `student` with:
 Print `student`'s city.
 
 ```javascript
-// your code here
+const student ={
+    name: "Alice",
+    grade: 90,
+    address: {
+        city: "Jakarta",
+        country: "Indonesia",
+    },
+};
+
+console.log(student.address.city);
+
 ```
 
 ---
@@ -97,7 +107,16 @@ Add a method called `greet` inside `person` object that returns:
 Then call it.
 
 ```javascript
-// your code here
+const person ={
+    name: "John",
+    age: 30,
+    hobby:"Reading",
+    greet: function () {
+        return `Hi, my name is ${this.name}`;
+      },
+    };
+    
+    console.log(person.greet());
 ```
 
 ---
